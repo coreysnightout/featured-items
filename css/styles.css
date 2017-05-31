@@ -4,7 +4,63 @@
   border:1px dashed #000;
 }
 
-.nav1 {
+.nav1{
+  width: 30%;
+  float: left;
+  height: 20px;
+  background-color: black;
+  margin-right: 100%;
+}
+
+a {
+  float: left;
+  display: inline;
+  height: 15px;
+  width: 6%;
+  background-color: pink;
+  margin-top: 20px;
+  margin-right: 20px;
+}
+
+.bar1{
+
+  width: 85%;
+  height: 25px;
+  float: left;
+  background-color: orange;
+  margin-top: 20px;
+}
+.bar2{
+  width: 93%;
+  height: 25px;
+  background-color: orange;
+  margin-top: 20px;
+  float: left;
+}
+
+.box{
+  width:95%;
+  height: 300px;
+  background-color: red;
+  float: left;
+  margin-top: 30px;
+}
+
+.bottombar{
+  width: 25%;
+  height: 25px;
+  background-color: grey;
+  margin-top: 20px;
+  float: left;
+}
+
+p{
+  float: left;
+  width: 100%;
+}
+
+
+/*.n1 {
   width: 21%;
   height: 30px;
   background-color: blue;
@@ -50,3 +106,21 @@ a {
 .text{
   margin: 0;
 }
+
+@media screen and (min-width: 401px) and (max-width: 700px) {
+
+  .nav1 {
+    width: 30%;
+    height: 35px;
+    background-color: purple;
+  }
+  a {
+    margin-top: 20px;
+    float: right;
+    width: 7%;
+    height: 15px;
+    background-color: blue;
+    margin-right: 20px;
+  }*/
+/*
+}*/
