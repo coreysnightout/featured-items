@@ -1,0 +1,52 @@
+
+*:not(body):not(html) {
+  box-sizing:border-box;
+  border:1px dashed #000;
+}
+
+.nav1 {
+  width: 21%;
+  height: 30px;
+  background-color: blue;
+}
+
+a {
+  margin-top: 20px;
+  float: left;
+  width: 7%;
+  height: 15px;
+  background-color: blue;
+  margin-right: 5px;
+}
+
+.bar1 {
+  width: 90%;
+  height: 45px;
+  background-color: #000;
+  float: left;
+  margin-top: 20px;
+}
+.bar2 {
+  width: 95%;
+  height: 45px;
+  background-color: #000;
+  float: left;
+  margin-top: 20px;
+}
+.box {
+  width: 95%;
+  height: 200px;
+  background-color: red;
+  margin-top: 185px;
+}
+
+.bottombar {
+  margin-top: 20px;
+  width: 25%;
+  height: 20px;
+  background-color: black;
+}
+
+.text{
+  margin: 0;
+}
