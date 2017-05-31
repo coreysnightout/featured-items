@@ -69,6 +69,12 @@ a {
 .box4 {
   display: none;
 }
+.box5 {
+  display: none;
+}
+
+.box6 {
+  display: none;
 
 p{
   float: left;
@@ -157,12 +163,54 @@ p{
     float: right;
     margin-top: 20px;
   }
-@media screen and (min-width: 701px){
+}
+@media screen and (min-width: 701px) {
   .nav1 {
+    margin-right: 0;
+    width: 35%;
+    height: 40px;
+    background-color: purple;
+  }
+    a {
+    background-color: blue;
+    float: right;
+    margin-right: 5%;
+  }
+  .bar1{
+    height: 40px;
+    background-color: blue;
+    margin-left: 3%;
+  }
+  .bar2{
+    height: 40px;
+    margin-left: 3%;
+  }
+  .box{
+    height: 230px;
+    width: 20%;
     background-color: violet;
   }
-  a {
-    float:right;
-  }
+  .box2{
+    display: block;
+    height: 230px;
+    width: 20%;
+    background-color: violet;
 
+  }
+  .box5 {
+    display: block;
+    height: 230px;
+    width: 20%;
+    background-color: violet;
+    float: right;
+    margin-top: 20px;
+  }
+  .box6 {
+    display: block;
+    height: 230px;
+    width: 20%;
+    background-color: violet;
+    float: right;
+    margin-top: 20px;
+}
 }
