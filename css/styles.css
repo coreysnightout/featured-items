@@ -46,6 +46,10 @@ a {
   margin-top: 30px;
 }
 
+.box2{
+  display: none;
+}
+
 .bottombar{
   width: 25%;
   height: 25px;
@@ -54,73 +58,103 @@ a {
   float: left;
 }
 
+.bottombar2 {
+  display: none;
+}
+
+.box3 {
+  display: none;
+}
+
+.box4 {
+  display: none;
+}
+
 p{
   float: left;
   width: 100%;
 }
 
-
-/*.n1 {
-  width: 21%;
-  height: 30px;
-  background-color: blue;
-}
-
-a {
-  margin-top: 20px;
-  float: left;
-  width: 7%;
-  height: 15px;
-  background-color: blue;
-  margin-right: 5px;
-}
-
-.bar1 {
-  width: 90%;
-  height: 45px;
-  background-color: #000;
-  float: left;
-  margin-top: 20px;
-}
-.bar2 {
-  width: 95%;
-  height: 45px;
-  background-color: #000;
-  float: left;
-  margin-top: 20px;
-}
-.box {
-  width: 95%;
-  height: 200px;
-  background-color: red;
-  margin-top: 185px;
-}
-
-.bottombar {
-  margin-top: 20px;
-  width: 25%;
-  height: 20px;
-  background-color: black;
-}
-
-.text{
-  margin: 0;
+.p2 {
+  display: none;
 }
 
 @media screen and (min-width: 401px) and (max-width: 700px) {
-
   .nav1 {
-    width: 30%;
-    height: 35px;
-    background-color: purple;
+    margin-right: 0;
+    width: 35%;
+    height: 25px;
   }
   a {
+    float: right;
+    margin-top: 0;
+    margin-right: 23%;
+    margin-top: 2%;
+    background-color: red;
+  }
+  .a-tag{
+    margin-right: 20px;
+  }
+  .bar1{
+    height: 35px;
+    background-color: blue;
+    margin-left: 3%;
+  }
+  .bar2{
+    height: 35px;
+    margin-left: 3%;
+  }
+  .box{
+    height: 230px;
+    width: 48%;
+    float: left;
+    margin-top: 20px;
+  }
+  .box2{
+    display: block;
+    height: 230px;
+    width: 48%;
+    background-color: red;
+    float: right;
+    margin-top: 20px;
+  }
+
+  .bottombar2 {
+    display: block;
+    width: 25%;
+    height: 25px;
+    background-color: grey;
     margin-top: 20px;
     float: right;
-    width: 7%;
-    height: 15px;
-    background-color: blue;
-    margin-right: 20px;
-  }*/
-/*
-}*/
+    margin-right: 22.5%;
+  }
+
+  p{
+    float: left;
+    width: 45%;
+  }
+
+  .p2 {
+    display: block;
+    float: right;
+    width: 45%;
+    margin-right: 2%;
+  }
+
+  .box3 {
+    display: block;
+    height: 230px;
+    width: 48%;
+    background-color: red;
+    float: left;
+    margin-top: 20px;
+  }
+  .box4 {
+    display: block;
+    height: 230px;
+    width: 48%;
+    background-color: red;
+    float: right;
+    margin-top: 20px;
+  }
+}
